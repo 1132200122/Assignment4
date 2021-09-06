@@ -1,0 +1,17 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="container">
+            <form action="/predict" method="post">
+                <input type="text" id="slength" name="slength" placeholder="sepal-length in cm"><br><br>
+                <input type="text" id="swidth" name="swidth" placeholder="sepal-width in cm"><br><br>
+                <input type="text" id="plength" name="plength" placeholder="petal-length in cm"><br><br>
+                <input type="text" id="pwidth" name="pwidth" placeholder="petal-width in cm"><br><br>
+                <input type="submit" value="predict">
+            </form>
+        </div>
+        {{ value }}
+    </body>
+</html>
